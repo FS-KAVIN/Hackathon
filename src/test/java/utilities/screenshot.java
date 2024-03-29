@@ -18,7 +18,7 @@ public class screenshot {
 	public void ss() throws IOException {
     TakesScreenshot scr = ((TakesScreenshot) driver);
     File scrFile = scr.getScreenshotAs(OutputType.FILE);
-    File destFile = new File("C:\\Users\\2320028\\OneDrive - Cognizant\\Desktop\\Project\\Project\\Screenshots\\screenshot.png");
+    File destFile = new File("C:\\Users\\2320224\\eclipse-workspace\\Project\\Screenshots\\screenshot.png");
     FileUtils.copyFile(scrFile, destFile);   
 }
 }

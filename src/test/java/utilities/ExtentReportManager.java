@@ -79,7 +79,7 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.INFO, result.getThrowable().getMessage());
 		
 		String imgPath = null;
-		imgPath = "C:\\Users\\2320028\\OneDrive - Cognizant\\Desktop\\Project\\Project\\Screenshots\\screenshot.png";
+		imgPath = "C:\\Users\\2320224\\eclipse-workspace\\Project\\Screenshots\\screenshot.png";
 		test.addScreenCaptureFromPath(imgPath);
 	}
 
